@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/opal-workshop/2026-2nd-edition/refs/heads/wpage/img/favicon.ico" />
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>2nd OPAL Workshop - ODRL and Beyond</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-0V7KNEH4P7"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-0V7KNEH4P7');
+	</script>
+
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header id="header" class="transparent-navbar">
+		<!-- container -->
+		<div class="container">
+			<!-- navbar header -->
+			<div class="navbar-header">
+				<!-- Logo -->
+				<div class="navbar-brand">
+	                <a class="logo" href="index.html">
+	                    <img class="logo-img" src="./img/OPAL.jpg" alt="logo">
+	                </a>
+            	</div>
+				<!-- /Logo -->
+
+				<!-- Mobile toggle -->
+				<button class="navbar-toggle">
+					<i class="fa fa-bars"></i>
+				</button>
+				<!-- /Mobile toggle -->
+			</div>
+			<!-- /navbar header -->
+
+			<!-- Navigation -->
+			<nav id="nav">
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="#call">Call</a></li>
+					<li><a href="#program">Program</a></li>
+					<li><a href="#important-dates">Important dates</a></li>
+					<li><a href="#organization">Organization</a></li>
+					<li><a href="#pc">Program Committee</a></li>
+					<li><a href="#supporters">Supporters</a></li>
+				</ul>
+			</nav>
+			<!-- /Navigation -->
+		</div>
+		<!-- /container -->
+	</header>
+	<!-- /Header -->
+
+	<!-- Home -->
+	<div id="home">
+		<!-- background image -->
+		<div class="section-bg"  data-stellar-background-ratio="0.5"></div>
+		<!-- /background image -->
+
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<!-- home content -->
+					<div class="col-md-10 col-md-offset-1">
+						<div class="home-content">
+							
+							<h1 style="color: #dd0a37"><span style="color: white">O</span>DRL and beyond: <span style="color: white">p</span>ractical <span style="color: white">a</span>pplications and challenges for po<span style="color: white">l</span>icy-based access and usage control. </h1>
+							<h1>OPAL 2026, 2nd edition</h1>
+							<h4 class="lead">Co-located with the <a href="https://2026.eswc-conferences.org/">Extended Semantic Web Conference</a></h4>
+							<h4 class="lead">Dubrovnik , Croatia · 10th-11th MAY (half-day), 2026</h4>
+							<a href="#call" class="main-btn">See Call for Papers</a>
+							<!--<a href="https://ceur-ws.org/Vol-3977/" class="main-btn">Proceedings</a>-->
+
+
+							
+							<div class="" style="text-align: center;margin-top:10px;font-size: 15px;">
+								<!--<a href="https://twitter.com/DIoT82564518" style="margin-right: 10px"><i
+										class="fa fa-twitter fa-4x"></i></a>-->
+								<a href="mailto:andreajesus.cimmino@upm.es" style="margin-left:10px"><i
+										class="fa fa-envelope fa-4x"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- /home content -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /home wrapper -->
+	</div>
+	<!-- /Home -->
+
+	<!-- About -->
+	<div id="call" class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h2 class="title">Call for Papers</h2>
+				</div>
+				<!-- /section title -->
+
+				<div class="col-md-10 col-md-offset-1 text-justify">
+					<!-- about content -->
+					<div class="about-content" style="font-size: 14pt">
+						<p>
+							Empowering individuals and organisations to share data responsibly and efficiently has become a critical challenge in today's digital landscape. Over the past few years, various standards, descriptive languages, and technologies have emerged to address this need, enabling greater control, transparency, and interoperability in data-sharing practices. Among these, the <a href="https://www.w3.org/TR/odrl-model/">Open Digital Rights Language (ODRL)</a> is the W3C language to represent policies related to permissions, prohibitions, and obligations in various data-usage and digital rights management scenarios using Semantic Web technologies, specified as a <a href="https://www.w3.org/TR/odrl-model/">core model</a> and <a href="https://www.w3.org/TR/odrl-vocab/">vocabulary</a>. 
+							<br /><br />
+							In recent years, significant efforts have been dedicated to enforcing and evaluating ODRL policies, moving from theoretical exploration to practical implementations. This progress is exemplified by the recognition of ODRL as a recommended standard for building data spaces as discussed by the International Data Spaces Association, Gaia-X or FIWARE as a road to European digital sovereignty.
+							<br /><br />
+							However, while ODRL has proven valuable for establishing rights management frameworks, several questions remain regarding its real-world application and the challenges associated with practical use cases. This workshop aims to gather researchers, practitioners, and stakeholders to share practical experiences, innovative applications, and lessons learned from using ODRL in diverse scenarios.
+							<br/>
+							Please check the github for on-the-spot comments: <a href="https://github.com/opal-workshop/2026-2nd-edition">GitHub</a>
+						</p>
+
+					</div>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="section-title" style="margin-top: 30pt !important; margin-bottom: 10pt !important;">
+					<h4 class="title"><span>Topics of interest</span></h4>
+				</div>
+				<div>
+
+
+					<div class="col-md-10 col-md-offset-1">
+						<ul class="list-group">
+							<li class="list-group-item">
+								Data governance and management in centralised and decentralised Knowledge Graphs.
+							</li>
+							<li class="list-group-item">
+								Policy enforcement, challenges, and conflict resolution in real-world applications.
+							</li>
+							<li class="list-group-item">
+								Formalization of user and organisational preferences for data sharing using ODRL.
+							</li>
+							<li class="list-group-item">
+								Comparative analysis of ODRL with other standards for data usage and rights management.
+							</li>
+							<li class="list-group-item">
+								Compliance, trust, and ethical challenges in open and distributed data ecosystems.
+							</li>
+							<li class="list-group-item">
+								Innovative approaches Leveraging Large Language Models (LLMs) to support reasoning, validation, and generation of ODRL policies.
+							</li>
+							<li class="list-group-item">
+							    Policy languages and models, approaches for regulating the behaviour of autonomous agents in open systems.
+							</li>
+							<li class="list-group-item">
+								Practical implementations: lessons learned, tools, use cases, and innovative applications using policies. 
+							</li>
+							<li class="list-group-item">
+								Other topics related to policies.
+							</li>
+						</ul>
+
+					</div>
+
+
+				</div>
+			</div>
+			<!-- /about content -->
+			<div class="row">
+				<!-- /Numbers -->
+				<div class="section-title" style="margin-top: 30pt !important; margin-bottom: 40pt !important;">
+					<h4 class="title"><span>Authors Guideline</span></h4>
+				</div>
+				<div class="col-md-10 col-md-offset-1 text-justify">
+					<!-- about content -->
+					<div class="about-content" style="font-size: 14pt">
+						<p>
+						Submissions must be in PDF, formatted in the style of the <a href="https://es.overleaf.com/latex/templates/template-for-submissions-to-ceur-workshop-proceedings-ceur-ws-dot-org/wqyfdgftmcfw">CEUR template</a>. Please, share your contribution before the deadline through the 
+						<a href="https://easychair.org/conferences/?conf=opal20260">EasyChair</a> platform. The accepted
+						contributions will be published in the proceedings of the workshop. Each accepted paper needs to
+						be presented by one of the authors at the workshop.
+						</p>
+					</div>
+				</div>
+
+				<div class="row" style="margin-top: 40pt;">
+			
+					
+					<div class="col-md-8 col-md-offset-2">
+						<h3 class="title"><span style="color: #dd0a37;">Regular Papers (15 pages)</span></h3>
+						<p style="font-size: 14pt">
+							Submissions accepted include either research or resource papers.
+						</p>
+					</div>
+	
+					<div class="col-md-8 col-md-offset-2">
+						<h3 class="title"><span style="color: #dd0a37;">Short Papers (8 pages)</span></h3>
+						<p style="font-size: 14pt">
+							Submissions accepted include either research or resource papers. Exceptional articles could be potentially extended for the proceedings.
+						</p>
+					</div>
+
+					
+					<div class="col-md-8 col-md-offset-2">
+						<h3 class="title"><span style="color: #dd0a37;">Use Case papers (8 pages)</span></h3>
+						<p style="font-size: 14pt">
+						these papers must present and explain a policy-based scenario.
+						</p>
+					</div>
+	
+					<div class="col-md-8 col-md-offset-2">
+						<h3 class="title"><span style="color: #dd0a37;">Minute of Madness or position papers (1-2 pages)</span></h3>
+						<p style="font-size: 14pt">
+				
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row" style="margin-top: 40pt;">
+				<div class="col-md-11 col-md-offset-1">
+					<h3 class="title"><span style="color: #dd0a37;">Review and Publication</span></h3>
+					<p style="font-size: 14pt">
+						The workshop follows a double-blind review process, where the identity of both authors and reviewers are concealed. Submitted papers must be anonymized.
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<!-- /Numbers -->
+				<div class="section-title" style="margin-top: 30pt !important; margin-bottom: 40pt !important;">
+					<h4 class="title"><span style="color: #dd0a37">Engage</span> & Participate</h4>
+				</div>
+				<div class="col-md-6 col-md-offset-0">
+						<h3 class="title"><span style="color: #dd0a37;">Interactive Prizes</span></h3>
+						<p style="font-size: 14pt; text-align:justify">
+						During the event, participants will be awarded interactive prizes, including certificates (e.g., Best Paper or Best Presentation) and physical gifts. Each attendee will receive 3D-printed tokens representing specific prizes and can award them to the speakers they believe deserve each prize. This interactive approach will not only determine the winners but also encourage meaningful interactions between attendees and speakers throughout the event.
+						</p>
+				</div>
+				
+				<div class="col-md-6 col-md-offset-0">
+						<h3 class="title"><span style="color: #dd0a37;">Audience-Driven Roundtable</span></h3>
+						<p style="font-size: 14pt; text-align:justify">
+The final session will be an interactive roundtable on key ODRL topics, including current challenges and future directions. Attendees will submit questions and suggestions via physical cards, and these will be prioritized for discussion. The session will encourage a collaborative exchange, with key outcomes documented and included in a post-event publication.						</p>
+				</div>
+			</div>
+
+			<!-- row -->
+
+		</div>
+
+		<!-- /container -->
+	</div>
+	<!-- /About -->
+
+	<!-- Galery -->
+	<!--	<div id="galery">
+		<!-- container -->
+	<!--	<div class="container">
+        <!-- row -->
+	<!--	<div class="row">
+        <!-- galery owl -->
+	<!--	<div id="galery-owl" class="owl-carousel owl-theme">
+        <!-- galery item -->
+	<!--	<div class="galery-item">
+        <img src="./img/galery01.jpg" alt="">
+    </div>
+    <!-- /galery item -->
+
+	<!-- galery item -->
+	<!--<div class="galery-item">
+    <img src="./img/galery02.jpg" alt="">
+</div>
+<!-- /galery item -->
+
+	<!-- galery item -->
+	<!--	<div class="galery-item">
+        <img src="./img/galery03.jpg" alt="">
+    </div>
+    <!-- /galery item -->
+
+	<!--	</div>
+    <!-- /galery owl -->
+	<!--</div>
+<!-- /row -->
+	<!--</div>
+<!-- /container -->
+	<!--</div>
+<!-- /Galery -->
+
+	<!-- Video CTA -->
+	<div id="program" class="section">
+		<!-- background image -->
+		<div class="section-bg" style="background-color: #635b70;background-repeat: repeat-x;" data-stellar-background-ratio="0.5"></div>
+		<!-- /background image -->
+
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- cta content -->
+				<div class="col-md-12 col-md-offset-0">
+					<div class="section-title">
+						<h2 class="title" style="margin-bottom: 30pt;"><span style="color: black;">Workshop Program</span><i class="fa fa-clock-o"></i> </h2>
+					</div>
+			<!--	<div>
+           
+					<div class="col-md-12 col-md-offset-0">
+						<ul class="list-group">
+							<li class="list-group-item">
+								<h3 class="event-title" style="color: black;">09:00 - 09:15 Workshop opening</h3>
+							</li>
+							<li class="list-group-item">
+								<h3 class="event-title" style="color: black;">09:15 - 09:30 Welcome message</h3>
+							</li>
+							<li class="list-group-item">
+								<h3 class="event-title" style="color: black;">09:30 - 10:00 <a href="#">Semantic Framework for Legally-aligned Health Data Exchanges.</a></br> &nbsp; Beatriz Esteves, Ruben Dedecker, Wout Slabbinck, Filip Pattyn and Ruben Verborgh.</h3>							
+							</li>
+							<li class="list-group-item">
+								<h3 class="event-title" style="color: black;">10:00 - 10:30 <a href="#">Towards Conformance in ODRL 3.0</a></br> &nbsp; Víctor Rodríguez-Doncel and Nicoleta Roman.</h3>
+							</li>
+							<li class="list-group-item">
+								<h3 class="event-title" style="color: black;">10:30 - 11:00 Coffee break</h3>
+							</li>
+							<li class="list-group-item">
+								<h3 class="event-title" style="color: black;">11:00 - 11:30 <a href="#">Towards a Formal Semantics of the Open Digital Rights Language (ODRL 2.2).</a></br> &nbsp; Piero Andrea Bonatti, Nicoletta Fornara and Andreas Harth.</h3>
+							</li>
+							<li class="list-group-item">
+								<h3 class="event-title" style="color: black;">11:30 - 12:00 <a href="#">ODRE Policy Directory Service: A Trust-Based ODRL Service for Decentralised and Policy-Aware Ecosystems.</a></br> &nbsp; Lucía Martín Núñez, Andrea Cimmino Arriaga and Raúl García Castro.</h3>
+							</li>
+							<li class="list-group-item">
+								<h3 class="event-title" style="color: black;">12:00 - 12:30 <a href="#">TOSL: An Ontology to Detect Abusive Services.</a></br> &nbsp; Elena Molino-Peña, José María Cruz-Lorite, José María García and Antonio Ruiz-Cortés.</h3>
+
+							</li>
+							<li class="list-group-item">
+								<h3 class="event-title" style="color: black;">12:00 - 14:00 Lunch</h3>
+							</li>
+							<li class="list-group-item">
+								<h3 class="event-title" style="color: black;">14:00 - 14:30 <a href="#">Automated Policy Negotiation: a Four-Course Meal.</a></br> &nbsp; Patrick Hochstenbach, Beatriz Gonçalves Crisóstomo Esteves and Ruben Verborgh.</h3>
+							</li>
+							<li class="list-group-item">
+								<h3 class="event-title" style="color: black;">14:30 - 15:00 <a href="#">Combining complex licenses to facilitate contextual resource reuse.</a></br> &nbsp; Manoé Kieffer, Patricia Serrano Alvarado and Margo Bernelin.</h3>
+							</li>
+							<li class="list-group-item">
+								<h3 class="event-title" style="color: black;">15:00 - 15:30 <a href="#">Improving ODRL 2.2: current limitations and theoretical solutions.</a></br> &nbsp; Andrea Cimmino Arriaga and Nicoletta Fornara.</h3>
+							</li>
+							<li class="list-group-item">
+								<h3 class="event-title" style="color: black;">15:30 - 16:00 Coffee break</h3>
+							</li>
+							<li class="list-group-item">
+								<h3 class="event-title" style="color: black;">16:00 - 16:20 <a href="#">Authentication and authorization in Data Spaces: A relationship-based access control approach for policy specification based on ODRL</a></br> &nbsp; Irene Plaza Ortiz, Andrés Muñoz Arcentales, Joaquín Salvachúa Rodríguez, Carlos Aparicio de Santiago, Gabriel Huecas Fernández-Toribio and Enrique Barra.</h3>
+							</li>
+							<li class="list-group-item">
+								<h3 class="event-title" style="color: black;">16:20 - 16:40 <a href="#">A SHACL-based Data Consistency Solution for Contract Compliance Verification.</a></br> &nbsp; Robert David, Albin Ahmeti, Geni Bushati, Amar Tauqeer and Anna Fensel.</h3>
+							</li>
+							<li class="list-group-item">
+								<h3 class="event-title" style="color: black;">16:40 - 16:50 <a href="#">Voting best paper award and round-table setup</a></h3>
+							</li>
+							<li class="list-group-item">
+								<h3 class="event-title" style="color: black;">16:50 - 17:45 <a href="#">Audience-driven roundtable</a></h3>
+							</li>
+							<li class="list-group-item">
+								<h3 class="event-title" style="color: black;">17:45 - 18:00 Workshop clousure</h3>
+							</li>
+							
+						</ul>
+
+					</div>
+
+
+				</div>
+						-->
+					
+					<div class="event">
+						
+						<div class="event-content">
+							<p class="event-time"></p>
+							<h3 class="event-title" style="color: #FFF;">To be announced.</h3>
+						</div>
+					</div>
+
+
+				</div>
+				<!-- /cta content -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /Video CTA -->
+
+	<!-- Important dates-->
+	<div id="important-dates" class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h3 class="title"><span>Important</span> dates</h3>
+					<h5 class="lead">All deadlines are 23:59 AoE</h5>
+				</div>
+				<!-- /section title -->
+
+				<div class="col-md-8 col-md-offset-2">
+
+					<div class="events-wrapper">
+						<!--Important date-->
+						<div class="event">
+							<div class="event-day">
+								<div>
+									<span class="day">24</span>
+									<span class="year">FEBRUARY, 2026</span>
+								</div>
+							</div>
+							<div class="event-content">
+								<h3 class="event-title">Abstract submission<!-- <span style="color: #dd0a37;">extended</span>--></h3>
+								<p>Submit your abstract (optional but recommended)</p>
+							</div>
+						</div>
+						<!--Important date-->
+						<div class="event">
+							<div class="event-day">
+								<div>
+									<span class="day"><!--<del>3</del>-->3</span>
+									<span class="year">MARCH, 2026</span>
+								</div>
+							</div>
+							<div class="event-content">
+								<h3 class="event-title">Submission papers</h3>
+								<p>Submit your paper</p>
+							</div>
+						</div>
+						<div class="event">
+							<div class="event-day">
+								<div>
+									<span class="day">31</span>
+									<span class="year">MARCH, 2026</span>
+								</div>
+							</div>
+							<div class="event-content">
+								<h3 class="event-title">Authors notification</h3>
+								<p>The notification and reviews from our Program Committee will be available.</p>
+							</div>
+						</div>
+						<!--Important date-->
+						<div class="event">
+							<div class="event-day">
+								<div>
+									<span class="day">1</span>
+									<span class="year">APRIL 2026</span>
+								</div>
+							</div>
+							<div class="event-content">
+								<h3 class="event-title">Submission camera ready</h3>
+								<p>Time to have your paper ready for being published. All the accepted paper will be
+									published in the proceedings.</p>
+							</div>
+						</div>
+						<!--Important date-->
+						<div class="event">
+							<div class="event-day">
+								<div>
+									<span class="day">10-14</span>
+									<span class="year">MAY, 2026</span>
+								</div>
+							</div>
+							<div class="event-content">
+								<h3 class="event-title">Event</h3>
+								<p>Keynote, papers presentations, minute of madness and a lot of discussion. Remember! If your
+									contribution is accepted, it needs to be presented by one of the authors at the
+									event.</p>
+							</div>
+						</div>
+
+					</div>
+					
+					<!--<div class="download-btn">-->
+					<!--<a href="#" class="main-btn">Download Schedule</a>-->
+					<!--</div>-->
+
+				</div>
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /Event Schedule -->
+
+	<!-- Speakers -->
+	<div id="organization" class="section" style="background-color:rgb(247, 247, 247);">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h3 class="title"><span style="color: black;" class="appear">Organizers </span></h3>
+				</div>
+				<!-- section title -->
+				<div class="col-md-3">
+					<div class="speaker" data-togglre="modal" data-target="">
+						<div class="speaker-img">
+							<img id="andrea" src="img/Andrea.jpg" alt="">
+						</div>
+						<div class="speaker-body">
+							<div class="speaker-social">
+								
+								<a href="http://mayor2.dia.fi.upm.es/oeg-upm/index.php/es/phd/389-acimmino/index.html"><i
+										class="fa fa fa-home"></i></a>
+								<a href="mailto:andreajesus.cimmino@upm.es"><i class="fa fa fa-envelope"></i></a>
+								<a href="https://twitter.com/acimmino"><i class="fa fa-twitter"></i></a>
+								<!--<a href="#"><i class="fa fa-instagram"></i></a>-->
+								<a href="https://www.linkedin.com/in/andrea-cimmino-arriaga-64b6b9112/"><i
+										class="fa fa fa-linkedin"></i></a>
+							</div>
+							<div class="speaker-content">
+								<h2>Andrea Cimmino</h2>
+								<span>Permanent Lecturer, <a href="https://www.upm.es/"
+										style="color:white">UPM</a></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="speaker" data-togglre="modal" data-target="">
+						<div class="speaker-img">
+							<img id="nicoletta" src="img/fornara-nicoletta.jpg" alt="Nicoletta Fornara">
+						</div>
+						<div class="speaker-body">
+							<div class="speaker-social">
+								
+								<a href="http://usi.to/dte"><i class="fa fa fa-home"></i></a>
+								<a href="mailto:nicoletta.fornara@usi.ch"><i class="fa fa fa-envelope"></i></a>
+								<!--<a href=""></i></a>-->
+								<!--<a href="#"><i class="fa fa-instagram"></i></a>-->
+								<!--<a href=""><i
+										class="fa fa fa-linkedin"></i></a>-->
+							</div>
+							<div class="speaker-content">
+								<h2>Nicoletta Fornara</h2>
+								<span>Lecturer and Researcher, <a href="https://www.usi.ch/en"
+										style="color:white; text-size:">USI</a></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="speaker" data-togglre="modal" data-target="">
+						<div class="speaker-img">
+							<img id="victor" src="https://cosasbuenas.es/img/retrato300.jpg" alt="" height="260px">
+						</div>
+						<div class="speaker-body">
+							<div class="speaker-social">
+								
+								<a href="https://cosasbuenas.es"><i
+										class="fa fa fa-home"></i></a>
+								
+								<a href="https://twitter.com/vroddon"><i class="fa fa-twitter"></i></a>
+								<a href="https://www.linkedin.com/in/victor-rodriguez-doncel/"><i
+										class="fa fa fa-linkedin"></i></a>
+							</div>
+							<div class="speaker-content">
+								<h2>Víctor Rodríguez-Doncel</h2>
+								<span>Assoc. Prof., <a href="https://www.upm.es/"
+										style="color:white">UPM</a></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="speaker" data-togglre="modal" data-target="">
+						<div class="speaker-img">
+							<img id="beatriz" src="https://avatars.githubusercontent.com/u/60222453?v=4" alt="" height="260px">
+						</div>
+						<div class="speaker-body">
+							<div class="speaker-social">
+								
+								<a href="https://w3id.org/people/besteves"><i
+										class="fa fa fa-home"></i></a>
+								<a href="mailto:beatriz.esteves@ugent.be"><i class="fa fa fa-envelope"></i></a>
+								<!--<a href=""><i class="fa fa-twitter"></i></a>-->
+								<!--<a href="#"><i class="fa fa-instagram"></i></a>-->
+								<a href="https://www.linkedin.com/in/beatriz-esteves-032249156/"><i class="fa fa fa-linkedin"></i></a>
+							</div>
+							<div class="speaker-content">
+								<h2>Beatriz Esteves</h2>
+								<span>Postdoctoral researcher, <a href="https://w3id.org/people/besteves"
+										style="color:white">Ghent University - imec</a></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /Speakers -->
+
+	<!-- Sponsors -->
+	<div id="pc" class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h3 class="title"><span>Program</span> <span style="color: #dd0a37;">Committee</span></h3>
+				</div>
+				<!-- /section title -->
+
+				<!-- sponsor -->
+				<div class="col-md-8 col-sm-6 col-xs-8 col-md-offset-2 text-center">
+					<!--<div class="section-title" style="margin-top: 30pt !important; margin-bottom: 40pt !important;">
+					<h4 class="title"><span>To be announced.</span></h4>-->
+
+					<ul class="list-group">
+
+						<li class="list-group-item">Renato Iannella, Semantic Identity.</li>
+						<li class="list-group-item">Ines Akaichi, Institute for Information Systems & New Media.</li>
+						<li class="list-group-item">Yassir Sellami, Gaia-X AISBL.</li>
+						<li class="list-group-item">Beatriz Esteves IMEC, University of Ghent.</li>
+						<li class="list-group-item">Harshvardhan J. Pandit, ADAPT Centre, School of Computing, Dublin City University.</li>
+						<li class="list-group-item">Cristina Baroglio, Dipartimento di Informatica, Università di Torino.</li>
+						<li class="list-group-item">Monica Palmirani, CIRSFID, ALMA-AI, Università di Bologna, Italy</li>
+						<li class="list-group-item">Simon Steyskal, Siemens AG Austria.</li>
+						<li class="list-group-item">Guido Governatori, Central Queensland University.</li>
+						<li class="list-group-item">Luis Ibáñez, University of Southampton.</li>
+						<li class="list-group-item">Joshua Cornejo, Marketdata.</li>
+						<li class="list-group-item">Juan Cano, Universidad Politécnica de Madrid.</li>
+						<li class="list-group-item">Roghaiyeh Ramisa Gachpaz Hamed, Trinity College Dublin.</li>
+						<li class="list-group-item">Piero Bonatti, University of Naples Federico II.</li>
+						
+					</ul>
+				</div>
+					<!--
+					<ul class="list-group">
+
+						<li class="list-group-item">Maxime Lefrançois,  École des Mines de Saint-Étienne, France</li>
+						<li class="list-group-item">Alba Fernández Izquierdo, BASF, Spain</li>
+						<li class="list-group-item">Axel Polleres, WU Vienna, Austria</li>
+						<li class="list-group-item">Piero Bonatti, University of Naples Federico II, Italy</li>
+						<li class="list-group-item">Sabrina Kirrane, Vienna University of Economics and Business, Austria</li>
+						<li class="list-group-item">Marina de Vos, University of Bath, England</li>
+						<li class="list-group-item">Andrei Ciortea, University of St.Gallen, Switzerland</li>
+						<li class="list-group-item">Terry Payne, University of Liverpool, England</li>
+						<li class="list-group-item">Antoine Zimmermann, École des Mines de Saint-Étienne, France</li>
+						<li class="list-group-item">Matteo Baldoni, Università di Torino, Italy</li>
+						<li class="list-group-item">Ben Whittam Smith, Deontic Data, England</li>
+						<li class="list-group-item">Adrian Paschke, Freie Universität Berlin and Fraunhofer FOKUS, Germany</li>
+						<li class="list-group-item">Rafael Corchuelo, Universidad de Sevilla, Spain</li>
+						<li class="list-group-item">Ramisa Hamed , Trinity College Dublin, Ireland</li>
+						<li class="list-group-item">Serena Villata Laboratoire I3S, CNRS, Sophia Antipolis, France</li>
+						<li class="list-group-item">Sarven Capadisli</li>
+						<li class="list-group-item">Joris Hulstijn, Utrecht University, Netherlands</li>
+						<li class="list-group-item">Pinar Yolum, Utrecht University, Netherlands</li>
+						<li class="list-group-item">Fabien Gandon, INRIA – Sophia Antipolis, France</li>
+						<li class="list-group-item">Lucía Martín Núñez, Universidad Politécnica de Madrid, Spain</li>
+					</ul>
+					-->
+				</div>
+
+				<!-- /sponsor -->
+
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /Sponsors -->
+	<div id="supporters" class="section" style="background-color:rgb(247, 247, 247);">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h3 class="title"><span style="color: black;" class="appear">Supported by</span></h3>
+				</div>
+				<!-- section title -->
+				<div>
+					<div class="row logo-collection">
+						
+						<div class="col-md-3">
+							<a href="https://www.upm.es/"><img class="imgResponsive"
+								src="https://raw.githubusercontent.com/oeg-upm/websiteFooterLogos/master/images/upm.png"
+											   alt=""></a>
+						</div>
+						<div class="col-md-3">
+							<a href="https://www.usi.ch/en"><img class="imgResponsive" src="https://github.com/opal-workshop/2025/blob/wpage/img/usi.png?raw=true" alt="" height="130"></a>
+						</div>
+						<div class="col-md-3">
+							<a href="https://www.ugent.be/en"><img class="imgResponsive"
+								src="https://www.ugent.be/++theme++ugent/static/images/logo_ugent_en.svg"
+											   alt="" height="130px"></a>
+						</div>
+
+						<div class="col-md-3" style="text-align: center">
+							<span style="font-size:11px; text-align:justify">
+								This work has received funding from the INESData project (Infrastructure for the Research of Distributed Data Spaces in UPM), a project funded in the context of the UNICO I+D CLOUD call of the Ministry for Digital Transformation and Public Administration in the framework of the PRTR funded by the European Union (NextGenerationEU).</span>
+								<img src="./img/inesdata.png" width=300px>
+						</div>
+					</div>
+					
+					<div class="row logo-collection" >
+						<div class="col-md-3" style="text-align: center">
+							<span style="font-size:11px; text-align:justify">
+								This work has received funding from the GUIA project funded by the Madrid Government (Comunidad de Madrid-Spain) under the Multiannual Agreement 2023-2026 with Universidad Politécnica de Madrid in the Line A, Emerging PhD researchers.</span>
+								<img src="./img/cam.png" width=200px>
+						</div>
+
+						<!--<div class="col-md-3" style="text-align: center">
+							<a href="https://www.auroral.eu/"><img class="imgResponsive" src="https://www.auroral.eu/img/logos/AURORAL-Horizontal_o.png" alt="" width="320"></a>
+						</div>-->
+						
+					</div>
+					
+				</div>
+							
+			</div>
+
+			<!--<div class="col-md-4 col-md-offset-0">
+				<div class="event-content">
+					<a href="https://cordis.europa.eu/project/id/958310/"><img src="img/Cogito.png" alt="" width="200"></a>
+				</div>
+			  </div>-->
+
+
+		</div>
+	</div>
+	<!-- /row -->
+	</div>
+	<!-- /container -->
+	</div>
+	<!-- CTA -->
+
+	<!-- /container -->
+
+	<!-- Map -->
+	<!--<div id="map"></div>-->
+	<!-- /Map -->
+	</div>
+	<!-- /Contact -->
+
+	<!-- Footer -->
+	<footer id="footer">
+		<!-- container -->
+		<div class="container">
+			<!-- footerRow -->
+
+
+			<!-- /footerRow -->
+			<br />
+			<!-- row -->
+			<div class="row">
+
+				<!-- /contact social -->
+
+				<!-- copyright -->
+				<div class="col-md-7 col-md-offset-3">
+					<span class="copyright">
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						Copyright &copy;
+						<script>document.write(new Date().getFullYear());</script> All rights reserved | This template
+						is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
+							target="_blank">Colorlib</a>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					</span>
+				</div>
+				<!-- /copyright -->
+
+			</div>
+			<!-- /row -->
+
+		</div>
+		<!-- /container -->
+	</footer>
+	<!-- /Footer -->
+
+	<!-- jQuery Plugins -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/jquery.countTo.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
